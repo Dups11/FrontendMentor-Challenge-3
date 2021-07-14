@@ -21,9 +21,9 @@ body {
     transform: translate(-50%, -50%);
     box-shadow: 0 0 65px hsl(185, 75%, 39%),
                 0 10px 42px -10px hsl(229, 23%, 23%);
-    /* border: 1px solid; */
-    border-radius: 10px;
-    overflow: hidden;
+                /* border: 1px solid; */
+                border-radius: 10px;
+                overflow: hidden;
 }
 
 .card-top {
@@ -38,10 +38,10 @@ body {
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 50%);
-
+    
     border-radius: 50%;
     border: 10px solid white;
-
+    
 }
 .profil {
     height: 145px;
@@ -91,6 +91,12 @@ body {
 /* Mobile View */
 
 @media (max-width: 375px) {
+    body {
+        background: 127% 58% no-repeat url(./images/bg-pattern-top.svg),
+                    -28% -28% no-repeat url(./images/bg-pattern-bottom.svg);
+        background-color: hsl(185, 75%, 39%);
+                        
+    }
     .card, .card-top{
         width: 325px;
     }
